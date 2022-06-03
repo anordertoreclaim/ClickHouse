@@ -39,7 +39,7 @@ ALTER TABLE mt DETACH PARTITION '2020-11-21';
 ALTER TABLE mt DETACH PART 'all_2_2_0';
 ```
 
-Read about setting the partition expression in a section [How to specify the partition expression](#alter-how-to-specify-part-expr).
+Read about setting the partition expression in a section [How to specify the partition expression](#how-to-set-partition-expression).
 
 After the query is executed, you can do whatever you want with the data in the `detached` directory — delete it from the file system, or just leave it.
 
